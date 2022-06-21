@@ -7,8 +7,8 @@ public class Down {
         //Child c= new DowncastingEx();// it will give compile-time error
         Child c = (Child) p;
         c.age = 25;
-        System.out.println(c.name);
-        System.out.println(c.age);
+        System.out.println("Name: "+c.name);
+        System.out.println("Age: "+c.age);
         c.showMessage();
     }
 }
